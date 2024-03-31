@@ -10,7 +10,7 @@ type ComputersProps = {
 
 const Computers = ({ isMobile }: ComputersProps) => {
   // Import scene
-  const computer = useGLTF("./rusty_barrel.glb");
+  const computer = useGLTF("./src/assets/rusty_barrel.glb") 
   const [rotationY, setRotationY] = useState(0); // State to control Y rotation
 
   useEffect(() => {
