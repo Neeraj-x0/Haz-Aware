@@ -69,27 +69,21 @@ export const Navbar = ({ hide }: NavbarProps) => {
           </Link>
 
           <ul className="list-none hidden sm:flex flex-row gap-10">
-            {NAV_LINKS.map((link) => (
-              <li
-                key={link.id}
-                className={cn(
-                  active === link.title ? "text-white" : "text-white",
-                  "hover:text-white text-[18px] font-medium cursor-pointer",
-                  link.id === "linkedin" || link.id === "github"
-                    ? "text-white"
-                    : "" // Add this line to conditionally apply black text color
-                )}
-                onClick={() => !link.link && setActive(link.title)}
-              >
-                {link.link ? (
-                  <a href={link.link} target="_blank" rel="noreferrer noopener">
-                    {link.title}
-                  </a>
-                ) : (
-                  <a href={`#${link.id}`}>{link.title}</a>
-                )}
-              </li>
-            ))}
+          <Link to={"/"} className="font-semibold text-[18px]">
+          About
+            </Link>
+            <Link to={"/"} className="font-semibold text-[18px]">
+            Work
+            </Link>
+            <Link to={"/"} className="font-semibold text-[18px]">
+            Contact
+            </Link>
+            <Link to={"/"} className="font-semibold text-[18px]">
+            Source Code
+            </Link>
+          <Link to={"/map"} className="font-semibold text-[18px]">
+              Map
+            </Link>
           </ul>
           {/* Hamburger Menu (Mobile) */}
           <div className="sm:hidden flex flex-1 justify-end items-center">

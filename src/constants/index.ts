@@ -60,6 +60,11 @@ export const NAV_LINKS = [
     title: "Source Code",
     
   },
+  {
+    id: "map",
+    title: "Maps",
+    link: "/",
+  },
 ] as const;
 
 // Services
