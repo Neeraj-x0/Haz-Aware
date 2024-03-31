@@ -48,8 +48,8 @@ export const Navbar = ({ hide }: NavbarProps) => {
           styles.paddingX,
           "w-full flex items-center py-5 fixed sticky top-0 z-20 ",
           isAtBottom || hide ? "mt-0" : "mt-20",
-          "relative", // Ensure the parent is relatively positioned
-           // Add a class for the blurred background
+          "relative" // Ensure the parent is relatively positioned
+          // Add a class for the blurred background
         )}
       >
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
@@ -68,23 +68,10 @@ export const Navbar = ({ hide }: NavbarProps) => {
             </p>
           </Link>
 
-          <ul className="list-none hidden sm:flex flex-row gap-10">
-          <Link to={"/"} className="font-semibold text-[18px]">
-          About
-            </Link>
-            <Link to={"/"} className="font-semibold text-[18px]">
-            Work
-            </Link>
-            <Link to={"/"} className="font-semibold text-[18px]">
-            Contact
-            </Link>
-            <Link to={"/"} className="font-semibold text-[18px]">
-            Source Code
-            </Link>
-          <Link to={"/map"} className="font-semibold text-[18px]">
-              Map
-            </Link>
-          </ul>
+          <Link to={"/map"} className="font-semibold border px-3 rounded-sm py-[2px] bg-blue-gray-100 text-black hover:bg-blue-gray-300 text-[18px]">
+            Map
+          </Link>
+
           {/* Hamburger Menu (Mobile) */}
           <div className="sm:hidden flex flex-1 justify-end items-center">
             <img
