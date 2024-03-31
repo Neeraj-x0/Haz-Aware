@@ -1,20 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import {
-  About,
-  Contact,
-  Experience,
-  Feedbacks,
-  Hero,
-  Navbar,
-  Tech,
-  Works,
-  StarsCanvas,
-} from "./components";
 import Home from "./Home";
-import Banner from "./components/banner";
-import Footer from "./components/footer";
-import { OpJI } from "./components/ourproduct";
 import Map from "./components/MapEmbed";
 // App
 const App = () => {
