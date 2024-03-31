@@ -41,9 +41,29 @@ import {
 // Navbar Links
 export const NAV_LINKS = [
   {
-    id: "Map",
-    title: "Map",
-    link: "/map",
+    id: "about",
+    title: "About",
+    link: null,
+  },
+  {
+    id: "work",
+    title: "Work",
+    link: null,
+  },
+  {
+    id: "contact",
+    title: "Contact",
+    link: null,
+  },
+  {
+    id: "source-code",
+    title: "Source Code",
+    
+  },
+  {
+    id: "map",
+    title: "Maps",
+    link: "/",
   },
 ] as const;
 
@@ -126,52 +146,55 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "Zone 1",
-    company_name: "Haz Aware",
+    title: "USER INPUT",
+    company_name: "ABSENTEE ACE",
     icon: tesla,
     iconBg: "#383E56",
     date: "FIRST STEP",
     points: [
-      "Zone 1 is classified as an area where flammable gases, vapors, or liquids are likely to occur under normal operating conditions ",
-      "Oil and gas refineries are divided into different hazardous zones based on the frequency",
-      "Duration of the presence of flammable substances",
-      ,
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "...........................",
+      "............................",
+      "..............................",
     ],
   },
   {
-    title: "Zone 2",
-    company_name: "Haz Aware",
+    title: "ANALYSER",
+    company_name: "ABSENTEE ACE",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "SECOND STEP",
     points: [
-      "Zone 2, these substances are not expected to be present under normal operating conditions or only intermittently and for short durations",
-      "The risk of a flammable atmosphere igniting in Zone 2 is lower due to the lower frequency and duration of flammable substance presence.  ",
-      "The risk is lower in Zone 2, safety measures are still required to ensure the protection of personnel and assets.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "...........................",
+      "............................",
+      "..............................",
     ],
   },
   {
-    title: "Zone 3",
-    company_name: "Haz Aware",
+    title: "ADVANCE ANALYSER",
+    company_name: "ABSENTEE ACE",
     icon: tesla,
     iconBg: "#383E56",
     date: "THIRD STEP",
     points: [
-      "Zone 3 is designated based on the lowest likelihood of the presence of flammable gases, vapors, or liquids. ",
-      "These substances, if present, would only occur under abnormal conditions and for short durations.",
-      "The risk of a flammable atmosphere igniting in Zone 3 is significantly lower. ",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "...........................",
+      "............................",
+      "..............................",
     ],
   },
   {
-    title: "Zone 4",
-    company_name: "Haz Aware",
+    title: "RESULT",
+    company_name: "ABSENTEE ACE",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "LAST STEP",
     points: [
-      "Zone 4 is the least hazardous classification in terms of the potential presence of flammable gases, vapors, or liquids. ",
-      "It indicates that the occurrence of such substances is highly unlikely or practically non-existent under normal operating conditions.",
-      "Due to the extremely low risk, Zone 4 areas typically require minimal or no specific precautions related to hazardous area management.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "...........................",
+      "............................",
+      "..............................",
     ],
   },
 ] as const;
@@ -180,21 +203,27 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-    'Real-Time Alerts: Receive immediate notifications about disaster warnings, evacuation orders, and safety updates in your area. Stay informed and take action quickly to ensure your safety and well-being.',
-    fontWidth: 'bold',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. .",
+    name: "ANTIMA MISHRA",
+    designation: "CFO",
+    company: "Acme Co",
     image: user1,
   },
   {
     testimonial:
-    "Emergency Resources: Find essential resources such as emergency shelters, medical facilities, and community support services. Get access to important contact information and learn about available assistance during and after disasters.",
-    fontWidth: 'bold',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    name: "ANTIMA MISHRA",
+    designation: "COO",
+    company: "DEF Corp",
     image: user2,
   },
   {
     
     testimonial:
-    "Evacuation Route: Access detailed maps and information about designated evacuation routes in your area. Plan your evacuation route in advance and find the safest path to reach shelter or higher ground during emergencies.",
-    fontWidth:'bold',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. !",
+    name: "ANTIMA MISHRA",
+    designation: "CTO",
+    company: "456 Enterprises",
     image: user3,
   },
 ] as const;

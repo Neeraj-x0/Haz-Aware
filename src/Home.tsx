@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Banner from "./components/banner";
 import Footer from "./components/footer";
 import { OpJI } from "./components/ourproduct";
 
@@ -20,7 +21,7 @@ const Home = () => {
 
   return (
     <>
-      
+      <Banner hide={hide} setHide={setHide} />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar hide={hide} />
@@ -28,8 +29,8 @@ const Home = () => {
         </div>
 
         <div>
-          
-          
+          <Feedbacks />
+          <OpJI />
           <Experience />
         </div>
         {/* Contact <Works
